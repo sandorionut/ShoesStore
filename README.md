@@ -1,4 +1,3 @@
-Shoes Store (ePantofi) 
 The Shoes Store  project, named ePantofi , is an e-commerce platform designed for selling shoes online. The website is built using HTML, CSS, PHP, and JavaScript , with a strong emphasis on backend functionality implemented in PHP. The database is managed using MySQL  via phpMyAdmin , and the frontend design leverages Bootstrap  for responsive layouts. Additionally, the template was initially sourced from TemplatesJungle  and heavily customized to meet the project's requirements. 
 Key Features: 
 User-Facing Features: 
