@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>epantofi.ro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/epantofi_logo.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <style>
+        body {
+            background-color: #28a745;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            margin-top: 50px;
+        }
+        .login-form {
+            padding: 30px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #218838;
+        }
+        .navbar {
+            background-color: #ffffff !important;
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <a class="navbar-brand text-success logo h1 align-self-center" href="index.php">
+            epantofi.ro
+        </a>
+        <!--RIGHT FROM THE ICON-->
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <!-- NAVBAR HOME + ABOUT + SHOP + CONTACT-->
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.php">Shop</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- RIGHT ICONS FOR SEARCH, CART, ACCOUNT-->
+            <div class="navbar align-self-center d-flex">
+                <a class="nav-icon d-none d-lg-inline" href="#">
+                    <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                </a>
+                <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                </a>
+                <a class="nav-icon position-relative text-decoration-none" href="login.html">
+                    <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Close Header -->
+<div class="container login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card login-form">
+                <div class="card-header text-center">
+                    <h2>Login</h2>
+                </div>
+                <div class="card-body">
+                    <form action="login.php" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" id="password" name="password" required placeholder="Enter your password">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-custom btn-block">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="signup.html">Don't have an account? Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
