@@ -55,6 +55,8 @@ Notes:
 Customizations: 
 - The frontend template was sourced from TemplatesJungle  and extensively modified to include dynamic content and additional features.
 - All product data is fetched dynamically from the MySQL database, ensuring flexibility and scalability.
+
+![Shoes Store Screenshot](siteImage.png)
      
      
         
